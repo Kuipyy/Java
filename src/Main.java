@@ -59,10 +59,39 @@ public class Main { //main başlığı altında class açıldı
 
         //KULLANICIDAN VERİ ALMA
         Scanner input = new Scanner(System.in); //bu inputu kullanabilmek için yazılmalıdır
-        int a;
+        /*int a;
         System.out.print("A sayısını giriniz: ");
         a = input.nextInt(); //next ifadesi input yani giriş için bekleme yapılan yere bir sonraki hamlede ne yazılacaksa onu hedeflemek anlamına gelir
-        System.out.println(a);
+        System.out.println(a); */
+
+        //Mantıksal Operatörler
+        /*int a = 5;
+        int b = 10;
+        System.out.println(a < b);
+        System.out.println(a != b); */
+
+        /*int a = 10, b = 20, c = 5, d;
+
+        boolean kosul1 = (a < b);
+        boolean kosul2 = (a > c);
+        boolean sonuc = kosul1 && kosul2;
+        d = (a == b) ? 15 : 25;
+
+        System.out.println(kosul1);
+        System.out.println(kosul2);
+        System.out.println(sonuc);
+        System.out.println(d); */
+
+        //int a = 5, b = 10, c = 3;
+        /*String comparison = (a == b) ? "eşittir" : "eşit değildir";
+        System.out.println(comparison); */
+
+       /* if (a == b) {
+            System.out.println("eşittir");
+        } else {
+            System.out.println("eşit değildir");
+        } */
+
 
     } //main metodu kapatıldı
 } //main classı kapatıldı
