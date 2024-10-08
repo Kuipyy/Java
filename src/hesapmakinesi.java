@@ -8,7 +8,7 @@ public class hesapmakinesi {
         double ilkSayi = input.nextDouble();
 
         System.out.print("2. sayıyı giriniz: ");
-        int ikinciSayi = input.nextInt();
+        double ikinciSayi = input.nextDouble();
 
         System.out.print("Hangi operatörle işlem yapmak istiyorsunuz(toplam:1, çıkarma:2, bölme:3, çarpma:4)? ");
         int oprtr = input.nextInt();
