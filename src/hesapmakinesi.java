@@ -5,7 +5,7 @@ public class hesapmakinesi {
         Scanner input = new Scanner(System.in);
 
         System.out.print("1. sayıyı giriniz: ");
-        int ilkSayi = input.nextInt();
+        double ilkSayi = input.nextDouble();
 
         System.out.print("2. sayıyı giriniz: ");
         int ikinciSayi = input.nextInt();
@@ -29,8 +29,12 @@ public class hesapmakinesi {
                 break;
             case 3:
                 oprtrString = "/";
-                result = ilkSayi / ikinciSayi;
-                System.out.print(ilkSayi + " " + oprtrString + " " + ikinciSayi + " = " + result);
+                if (ikinciSayi == 0) {
+                    System.out.println("0'a böldürme hatası!");
+                } else {
+                    result = ilkSayi / ikinciSayi;
+                    System.out.print(ilkSayi + " " + oprtrString + " " + ikinciSayi + " = " + result);
+                }
                 break;
             case 4:
                 oprtrString = "*";
