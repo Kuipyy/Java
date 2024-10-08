@@ -39,7 +39,6 @@ public class hesapmakinesi {
                 break;
             default:
                 System.out.println("Hatalı giriş yaptınız.");
-
         }
     }
 }
