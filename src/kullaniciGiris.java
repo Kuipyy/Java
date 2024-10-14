@@ -6,7 +6,6 @@ public class kullaniciGiris {
 
         String correctUsername = "github";
         int correctPassword = 12345;
-        boolean isPasswordCorrect = false;
         boolean isUsernameCorrect = false;
 
 
