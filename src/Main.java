@@ -7,7 +7,7 @@ public class Main { //main başlığı altında class açıldı
         // veya direkt böyle yazılabilir: System.out.println("merhaba neslihan \n hoşgeldin");
 
         // JAVA DEĞİŞKEN TİPLERİ
-         //<veri tipi> <değişken ismi> = veri(değer)
+        //<veri tipi> <değişken ismi> = veri(değer)
         /*int numberOne = 10;
         numberOne = 15;  // değişkenin değeri değiştirileceği zaman tekrardan değişken cinsini tanımlaması yapılmamalıdır
         System.out.println(numberOne); */
@@ -92,6 +92,25 @@ public class Main { //main başlığı altında class açıldı
             System.out.println("eşit değildir");
         } */
 
+        //System.out.printf("%s%n%s%n","Welcome to", "Java Programming!");
+
+       /* int i = 1;
+        while (i <= 5) {
+            System.out.printf("%d ",i);
+            i++;
+        } */
+
+        /*
+        int left = 100;
+        int right = 200;
+        while (++left < --right) {
+        }
+        System.out.println(left); */
+
+       /* int sayi;
+        for (sayi =1; sayi<=10; sayi++) {
+            System.out.printf("%d,", sayi);
+        }*/
 
     } //main metodu kapatıldı
 } //main classı kapatıldı
