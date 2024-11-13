@@ -4,7 +4,7 @@ public class ciftSayilar {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Çİft tam sayı girişi yapınız: ");
+        System.out.println("Tam sayı girişi yapınız: ");
         int sayi = input.nextInt();
 
         if (sayi % 2 != 0) {
